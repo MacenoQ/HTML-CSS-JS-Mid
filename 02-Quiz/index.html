@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="info-bar">
+        <div class="correct-wrong">
+          <div class="correct"></div>
+          <div class="wrong"></div>
+        </div>
+
+        <div class="time-remaining"></div>
+      </div>
+      <div class="quiz-container">
+        <div class="quiz-content">
+          <div class="quiz-number"></div>
+          <div class="quiz-body"></div>
+          <div class="quiz-option">Answer options</div>
+
+          <div class="quiz-answer-option">
+            <ul>
+              <li>
+                <input type="radio" id="a" class="answer" name="answer" />
+                <label for="a" class="a_text"></label>
+              </li>
+              <li>
+                <input type="radio" id="b" class="answer" name="answer" />
+                <label for="b" class="b_text"></label>
+              </li>
+              <li>
+                <input type="radio" id="c" class="answer" name="answer" />
+                <label for="c" class="c_text"></label>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="buttons">
+        <button type="submit" class="send-btn">SEND ANSWER</button>
+      </div>
+    </div>
+  </body>
+</html>

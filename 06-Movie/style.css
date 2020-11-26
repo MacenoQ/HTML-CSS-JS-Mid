@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1c1e35;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  height: 10vh;
+  align-items: center;
+  background-color: #2c2f53;
+}
+
+#form {
+  margin-right: 2rem;
+}
+
+#search {
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  border: 2px solid #1c1e35;
+  background-color: transparent;
+}
+
+#search::placeholder {
+  color: #1c1e35;
+}
+
+#search:focus {
+  outline: none;
+  color: #fff;
+  background-color: transparent;
+}
+
+#main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie {
+  position: relative;
+  overflow: hidden;
+  margin: 1rem;
+  width: 250px;
+  background-color: #2c2f53;
+  box-shadow: 5px 5px 10px black;
+  border-radius: 10px;
+}
+
+.movie img {
+  max-width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.movie-info {
+  min-height: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.movie-info h3 {
+  padding: 0.5rem;
+  color: #fff;
+}
+.movie-info span {
+  align-self: center;
+  background-color: #1c1e35;
+  padding: 0.3rem 0.5rem;
+}
+
+.green {
+  color: green;
+}
+
+.orange {
+  color: orange;
+}
+
+.red {
+  color: red;
+}
+
+.overview {
+  background-color: #fff;
+  padding: 2rem;
+  position: absolute;
+  max-height: 100%;
+  overflow: auto;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transform: translateY(101%);
+  transition: transform 0.3s ease-in;
+}
+
+.overview h3 {
+  margin-top: 0;
+}
+
+.movie:hover .overview {
+  transform: translateY(0);
+}

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+body {
+  background-color: #7bdaf3;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+.notes {
+  margin: 2rem;
+  height: 400px;
+  width: 400px;
+  background-color: white;
+}
+
+.tools {
+  height: 50px;
+  width: 100%;
+  background-color: #ecfaf5;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.save,
+.edit,
+.delete {
+  font-size: 1.5rem;
+  border: none;
+  background-color: #ecfaf5;
+  padding-right: 1rem;
+  color: #9ec862;
+  cursor: pointer;
+  outline: none;
+}
+
+.main {
+  display: block;
+  height: 350px;
+  width: 100%;
+  background-color: #ecfaf5;
+  opacity: 0.5;
+  font-size: 1.2rem;
+}
+
+textarea {
+  font-family: inherit;
+  font-size: 1.2rem;
+  height: 350px;
+  width: 100%;
+  outline: none;
+  border: none;
+  resize: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.add {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  background-color: #9ec862;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 2px 2px 5px green;
+  outline: none;
+  cursor: pointer;
+}

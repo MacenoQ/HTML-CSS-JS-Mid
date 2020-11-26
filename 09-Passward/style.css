@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightcoral;
+}
+
+.pw-container {
+  background-color: rgb(218, 244, 146);
+  height: 400px;
+  width: 350px;
+  box-shadow: 10px 10px 20px rgb(244, 229, 146);
+  border-radius: 10px;
+}
+
+.pw-header {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 350px;
+  background-color: rgb(255, 241, 215);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#pw {
+  display: inline-block;
+  width: 300px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#copy {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  opacity: 0;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in;
+}
+
+.pw-header:hover #copy {
+  opacity: 1;
+}
+
+.pw-body {
+  display: flex;
+  height: 200px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form-control {
+  padding: 1rem;
+  align-self: flex-end;
+}
+
+.generate {
+  color: white;
+  width: 200px;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  border: none;
+  background-color: lightcoral;
+  outline: none;
+  cursor: pointer;
+}

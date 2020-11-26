@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Inconsolata', monospace;
+  background-image: url('sean-o-KMn4VEeEPR8-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position: center center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: -15rem;
+}
+
+.countdown-container {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+.time {
+  font-size: 6rem;
+  line-height: 2;
+  margin: 0 3rem;
+}
+
+.countdown-element {
+  text-align: center;
+}
+
+.countdown-element span {
+  font-size: 1.5rem;
+}
