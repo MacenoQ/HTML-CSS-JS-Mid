@@ -1,4 +1,4 @@
-const target = '10 Oct 2020';
+const target = '10 Oct 2021';
 const daysElement = document.getElementById('days');
 const hoursElement = document.getElementById('hours');
 const minutesElement = document.getElementById('minutes');
