@@ -11,7 +11,7 @@ async function getUser(user) {
   getRepos(user);
 }
 
-getUser('florinpop17');
+getUser('MacenoQ');
 
 async function getRepos(username) {
   const resp = await fetch(APIURL + username + '/repos');
