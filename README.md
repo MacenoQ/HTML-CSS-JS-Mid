@@ -4,7 +4,7 @@
 
 ## Idea
  
- the practice idea comes from Florin Pop's [video].(https://www.youtube.com/watch?v=dtKciwk_si4&ab_channel=FlorinPop)
+ the practice idea comes from Florin Pop's [video](https://www.youtube.com/watch?v=dtKciwk_si4&ab_channel=FlorinPop).
  
  Thanks for Florin Pop's inspiration.
  
